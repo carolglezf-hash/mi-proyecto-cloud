@@ -1,0 +1,133 @@
+/* ====== GENERAL ====== */
+
+body {
+    background-color: #ecf4ff; 
+    font-family: verdana;
+    text-align: justify;
+    margin: 0; /* elimina posibles márgenes por defecto */
+}
+
+h3  {
+    color:#213d62; 
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+p   {
+    color: black; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul {
+    color:black;
+    margin-left: 20px;
+}
+
+a {
+    color: #213d62;
+}
+
+/* ====== HEADER ====== */
+header {
+    background-color:#213d62;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.titulo {
+    position: relative;
+}
+
+.titulo img {
+    position: absolute;
+    left: 30px;
+    bottom: -40px;    /* sobresale 40px por debajo */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.titulo h1 {
+    color: #ecf4ff; 
+    line-height: 100px;
+}
+
+/* ====== HR ====== */
+.linea_cabecera {
+    width: 1680px;
+    margin-left: 210px;
+    height: 3px;
+    background-color: #213d62;
+    border: none;
+}
+
+.col-izq hr,
+.col-der hr {
+    height: 3px;
+    background-color: #213d62;
+    border: none;
+    width: 100px;
+    margin-left: 20px;
+}
+
+/* ====== LAYOUT PRINCIPAL ====== */
+main {
+    display: flex;
+    margin-top: 30px;
+}
+
+.col-izq {
+    width: 25%;
+    background-color: #ecf4ff;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.col-der {
+    width: 75%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px;
+}
+
+/* ====== IMG LINKEDIN ====== */
+.linkedIn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto; /* para que se vaya abajo de la pagina*/
+}
+
+.linkedIn img {
+  width: 50px;
+  height: 50px;
+}
+
+/* ====== BOTÓN MÁS INFO ====== */
+#btn-extra {
+    background-color: #213d62;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btn-extra:hover {
+    background-color: #1a2c4f; /* cambio de color al pasar el cursor */
+}
+
+/* ====== FOOTER ====== */
+footer {
+    text-align: center;
+    padding: 20px;
+}

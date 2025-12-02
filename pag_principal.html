@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title >nuestro primer currículum</title>
+    <!-- Icono de la pestaña -->
+    <link rel="icon" type="image/x-icon" href="https://images.genius.com/2037d9946a064f461b5c45eeb452fcac.1000x1000x1.png">
+    <!-- Hoja de estilos externa -->
+    <link rel="stylesheet" href="pag_principal.css">
+    <!-- importación del formato de letra del título (fuente google) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+
+    <header class="titulo">
+        <!--TÍTULO E IMAGEN DE MVRK-->
+        <img 
+            src="https://images.genius.com/2037d9946a064f461b5c45eeb452fcac.1000x1000x1.png" 
+            alt="portada del último álbum de mvrk, artista emergente de Vallecas" 
+        >
+
+        <h1>Carol & Sandra</h1>
+    </header>
+
+    <!--línea delimitante después del título-->
+    <hr class="linea_cabecera">
+
+    <main>
+        <aside class="col-izq">
+            <h3>CONTACTO</h3>
+                <hr>
+                <ul>
+                    <li>Email de Sandra:<br><a href="mailto:sandra.yunta@estudiante.uam.es">sandra.yunta@estudiante.uam.es</a></li>
+                    <br>
+                    <li>Email de Carol:<br><a href="mailto:carolina.gonzalezf@estudiante.uam.es">carolina.gonzalezf@estudiante.uam.es</a></li>
+                </ul>
+
+            <h3>ESTUDIOS</h3>
+                <hr>
+                <!--ENUMERACIONES, LISTAS-->
+                <ul>
+                    <li>ESO</li>
+                    <li>Bachillerato tecnológico de excelencia</li>
+                    <li>Ciencia e Ingeniería de Datos en la UAM</li>
+                </ul>
+
+            <h3>IDIOMAS</h3>
+                <hr>
+                <ul>
+                    <li>Inglés B2</li>
+                    <li>Español nativo</li>    
+                    <li>Mandarín A1</li>
+                </ul>
+
+            <h4 class="linkedIn">
+                <img 
+                    src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png"
+                    alt="icono LinkedIn"
+                >
+                <a href="https://www.linkedin.com/in/sandra-yunta-451773351/" target="_blank">LinkedIn</a>
+            </h4>
+            
+        </aside>
+
+        <section class="col-der"> <!--style="background-color:#213d62; padding:20px;"-->
+            <!--APARTADOS-->
+            <br>
+            <h3>NUESTRA HISTORIA</h3>
+                <hr>
+                <p style="font-family:verdana;">
+                Nos conocimos en 2023, al inicio de una nueva etapa en nuestras vidas: <b>la vida universitaria</b>. Desde aquel momento todo cambió, porque sin planearlo encontramos en la otra un apoyo incondicional.
+                Empezamos compartiendo clases y apuntes, pero poco a poco también compartimos objetivos, miedos y risas. Cada examen aprobado fue una celebración conjunta, y cada suspenso se transformó en un motivo para animarnos y recordarnos que no estamos solas en este camino.
+                Hoy podemos decir con orgullo que no solo somos compañeras de universidad, sino que nos hemos convertido en amigas de verdad, que seguirán creciendo juntas dentro y fuera de las aulas.
+                </p>
+
+                <!-- Botón para añadir texto extra -->
+                <button id="btn-extra">Añadir más sobre nosotras</button>
+
+                <!-- Aquí aparecerá el texto extra -->
+                <div id="extra-texto"></div>
+
+            <br>
+
+            <h3>EXPERIENCIA EN ANTERIORES PRÁCTICAS</h3>
+                <hr>
+                <ul>
+                    <li>Primer curso</li>
+                    <br>
+                        <ul>
+                            <li><a href="proyecto_ICID.html">
+                                PROYECTO FINAL: Introducción a la Ciencia e Ingeniería de Datos
+                            </a></li>
+                        </ul>
+                    <br><br>
+
+                    <li>Segundo curso</li>
+                    <br>
+                        <ul>
+                            <li><a href="proyecto.html">
+                                PROYECTO FINAL: Desarrollo software 
+                            </a></li>
+                        </ul>
+                    <br><br>
+                </ul>
+
+            
+        </section>
+    </main>
+
+    <!-- pie de la pag web-->
+    <footer>
+        <p>Universidad Autónoma de Madrid 2025 Carol & Sandra</p>
+    </footer>
+
+    <!-- script js -->
+    <script src="codigo.js"></script>
+
+
+</body>
+</html>
